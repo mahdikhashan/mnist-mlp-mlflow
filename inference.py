@@ -7,10 +7,6 @@ import mlflow.pytorch
 assert mlflow.__version__ >= "1.0.0"
 mlflow.set_tracking_uri("http://127.0.0.1:8081/")
 
-import cv2
-assert cv2.__version__ >= "4.0.0"
-
-import torch
 import torchvision.transforms as transforms
 
 from PIL import Image
@@ -39,7 +35,7 @@ def predict(test_data):
     return output
 
 if __name__ == "__main__":
-    image_six = Image.open("four.jpg")
+    image_six = Image.open("inference_data/four.jpg")
     if image_six is None:
         print("Error: Image not loaded. Please check the file path.")
         exit(1)
@@ -48,6 +44,7 @@ if __name__ == "__main__":
 
     prediction = predict(test_data[0])
     predicted_digit = torch.argmax(prediction, dim=1).item()
+
     for i, input_data in enumerate(test_data):
         print(f"Input: {input_data['label']} -> Prediction: {predicted_digit}, "
               f"{'Correct' if (input_data['label'] == predicted_digit) else 'Failed' }")

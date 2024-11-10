@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/mnist-mlp-mlflow.iml" filepath="$PROJECT_DIR$/mnist-mlp-mlflow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/inference_data.iml" filepath="$PROJECT_DIR$/inference_data.iml" />
     </modules>
   </component>
 </project>
