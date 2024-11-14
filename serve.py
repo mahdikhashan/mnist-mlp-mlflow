@@ -43,4 +43,7 @@ def predict():
             output = model(inputs)
 
         predicted_digit = torch.argmax(output, dim=1).item()
+
+        print(predicted_digit)
+
         return jsonify(predicted_digit)

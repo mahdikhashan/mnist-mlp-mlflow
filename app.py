@@ -1,33 +1,35 @@
+import requests
+
 import streamlit
 assert streamlit.__version__ >= "1.38.0"
 
 from streamlit_drawable_canvas import st_canvas
 
-import torch
-assert torch.__version__ >= "2.0.0"
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-
 import cv2
 
-import torchvision.transforms as transforms
+SERVING_URL = "http://localhost:5003/predict"
 
-# import mlflow
-# import mlflow.pytorch
-# assert mlflow.__version__ >= "1.0.0"
-# mlflow.set_tracking_uri("http://127.0.0.1:8081/")
-
-
-streamlit.title('My Digit Recognizer')
+streamlit.title('MNIST Inference')
 streamlit.markdown('''
 Try to write a digit!
 ''')
 
-SIZE=192
+option = streamlit.selectbox(
+    "Select Model:",
+    ("Email", "Home phone", "Mobile phone"),
+    index=None,
+    placeholder="Select contact method...",
+)
+
+SIZE = 192
+img = None
+model = None
+
 mode = streamlit.checkbox("Draw (or Delete)?", True)
 
 canvas_result = st_canvas(
     fill_color='#000000',
-    stroke_width=20,
+    stroke_width=15,
     stroke_color='#FFFFFF',
     background_color='#000000',
     width=SIZE,
@@ -39,33 +41,23 @@ if canvas_result.image_data is not None:
     img = cv2.resize(canvas_result.image_data.astype('uint8'), (28, 28))
     rescaled = cv2.resize(img, (SIZE, SIZE), interpolation=cv2.INTER_NEAREST)
     streamlit.write('Model Input')
-    streamlit.image(rescaled)
+    streamlit.image(rescaled) # Clamp=True
 
 if streamlit.button('Predict'):
     test_x = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-    # val = model.predict(test_x.reshape(1, 28, 28))
-    # streamlit.write(f'result: {np.argmax(val[0])}')
-    # streamlit.bar_chart(val[0])
 
-# def preprocess_image(image):
-#     transform = transforms.Compose([
-#         transforms.Resize((28, 28)),
-#         transforms.ToTensor(),
-#     ])
-#     image_resized = transform(image)
-#     flat = torch.flatten(image_resized, start_dim=1)
-#     return flat
-#
-# def predict(test_data):
-#     model_uri = "models:/mnist_mlp/latest"
-#     model = mlflow.pytorch.load_model(model_uri)
-#     model = model.to(device)
-#     model.eval()
-#
-#     inputs = preprocess_image(test_data["image"])
-#
-#     with torch.no_grad():
-#         output = model(inputs)
-#
-#     return output
+    _, img_encoded = cv2.imencode('.png', test_x)
+    img_bytes = img_encoded.tobytes()
 
+    try:
+        resp = requests.post(
+            SERVING_URL,
+            files={"file": ("image.png", img_bytes, "image/png")}
+        )
+
+        if resp.status_code == 200:
+            streamlit.write(f"Result: {resp.json()}")
+        else:
+            streamlit.write("Error in prediction response:", resp.status_code)
+    except Exception as e:
+        streamlit.error(f"Request failed: {e}")
