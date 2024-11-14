@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/da0e6b90feb34652b3d55a841c7fb742/artifacts
+end_time: 1731092666222
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: da0e6b90feb34652b3d55a841c7fb742
+run_name: receptive-turtle-810
+run_uuid: da0e6b90feb34652b3d55a841c7fb742
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731092641134
+status: 3
+tags: []
+user_id: mahdikhashan

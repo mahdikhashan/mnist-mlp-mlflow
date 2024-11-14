@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1731169939378
+current_stage: None
+description: ''
+last_updated_timestamp: 1731169939378
+name: mnist_mlp
+run_id: 50dd66a6c45741779385b0530901cf7e
+run_link: ''
+source: mlflow-artifacts:/0/50dd66a6c45741779385b0530901cf7e/artifacts/mnist_mlp
+status: READY
+status_message: null
+storage_location: mlflow-artifacts:/0/50dd66a6c45741779385b0530901cf7e/artifacts/mnist_mlp
+user_id: null
+version: 9

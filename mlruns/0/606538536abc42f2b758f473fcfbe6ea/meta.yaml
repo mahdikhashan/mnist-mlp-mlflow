@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/606538536abc42f2b758f473fcfbe6ea/artifacts
+end_time: 1731089998354
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 606538536abc42f2b758f473fcfbe6ea
+run_name: big-asp-768
+run_uuid: 606538536abc42f2b758f473fcfbe6ea
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731089980400
+status: 3
+tags: []
+user_id: mahdikhashan

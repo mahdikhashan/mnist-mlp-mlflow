@@ -1,0 +1,7 @@
+artifact_location: mlflow-artifacts:/632072251195637070
+creation_time: 1731157371139
+experiment_id: '632072251195637070'
+last_update_time: 1731605885451
+lifecycle_stage: deleted
+name: MNIST MLP
+tags: {}

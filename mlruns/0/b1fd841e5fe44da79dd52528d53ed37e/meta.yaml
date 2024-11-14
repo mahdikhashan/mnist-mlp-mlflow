@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/b1fd841e5fe44da79dd52528d53ed37e/artifacts
+end_time: 1731164972906
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b1fd841e5fe44da79dd52528d53ed37e
+run_name: sedate-newt-854
+run_uuid: b1fd841e5fe44da79dd52528d53ed37e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731164841087
+status: 3
+tags: []
+user_id: mahdikhashan

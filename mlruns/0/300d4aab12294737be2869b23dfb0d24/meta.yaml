@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/300d4aab12294737be2869b23dfb0d24/artifacts
+end_time: 1731092980801
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 300d4aab12294737be2869b23dfb0d24
+run_name: puzzled-tern-889
+run_uuid: 300d4aab12294737be2869b23dfb0d24
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731092955012
+status: 3
+tags: []
+user_id: mahdikhashan

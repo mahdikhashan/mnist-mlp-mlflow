@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/1e465ff6d1c74cb6b7922c539b546fec/artifacts
+end_time: 1731093366490
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1e465ff6d1c74cb6b7922c539b546fec
+run_name: capable-hawk-904
+run_uuid: 1e465ff6d1c74cb6b7922c539b546fec
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731093362372
+status: 3
+tags: []
+user_id: mahdikhashan

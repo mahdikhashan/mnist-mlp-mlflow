@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/92d6b340606b4d9e9edb66c3a015dff4/artifacts
+end_time: 1731155898510
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 92d6b340606b4d9e9edb66c3a015dff4
+run_name: fortunate-frog-72
+run_uuid: 92d6b340606b4d9e9edb66c3a015dff4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731155898412
+status: 3
+tags: []
+user_id: mahdikhashan

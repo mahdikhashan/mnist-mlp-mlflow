@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/cd7b1501a44b436f8949498cb4b70913/artifacts
+end_time: 1731157225474
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cd7b1501a44b436f8949498cb4b70913
+run_name: sedate-snipe-475
+run_uuid: cd7b1501a44b436f8949498cb4b70913
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731156643511
+status: 3
+tags: []
+user_id: mahdikhashan

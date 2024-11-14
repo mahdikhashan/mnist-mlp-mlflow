@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/25ab710fed044c4ba987b59420a5c1ba/artifacts
+end_time: 1731090184493
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 25ab710fed044c4ba987b59420a5c1ba
+run_name: judicious-duck-790
+run_uuid: 25ab710fed044c4ba987b59420a5c1ba
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731090182282
+status: 3
+tags: []
+user_id: mahdikhashan

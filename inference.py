@@ -35,12 +35,12 @@ def predict(test_data):
     return output
 
 if __name__ == "__main__":
-    image_six = Image.open("inference_data/four.jpg")
+    image_six = Image.open("inference_data/one.jpg")
     if image_six is None:
         print("Error: Image not loaded. Please check the file path.")
         exit(1)
 
-    test_data = [{"image": image_six, "label": 4}]
+    test_data = [{"image": image_six, "label": 1}]
 
     prediction = predict(test_data[0])
     predicted_digit = torch.argmax(prediction, dim=1).item()

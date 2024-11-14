@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/a57081a29f8a40d6842a0a50c4afd83a/artifacts
+end_time: 1731092464737
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a57081a29f8a40d6842a0a50c4afd83a
+run_name: charming-hen-741
+run_uuid: a57081a29f8a40d6842a0a50c4afd83a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731092460677
+status: 3
+tags: []
+user_id: mahdikhashan

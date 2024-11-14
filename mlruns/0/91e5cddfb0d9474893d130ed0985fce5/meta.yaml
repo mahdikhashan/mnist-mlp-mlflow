@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/91e5cddfb0d9474893d130ed0985fce5/artifacts
+end_time: 1731093171424
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 91e5cddfb0d9474893d130ed0985fce5
+run_name: learned-fly-670
+run_uuid: 91e5cddfb0d9474893d130ed0985fce5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731093144964
+status: 3
+tags: []
+user_id: mahdikhashan

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/0973194fe8974889849e68100e446db0/artifacts
+end_time: 1731166987490
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0973194fe8974889849e68100e446db0
+run_name: bright-snake-317
+run_uuid: 0973194fe8974889849e68100e446db0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731166847822
+status: 3
+tags: []
+user_id: mahdikhashan

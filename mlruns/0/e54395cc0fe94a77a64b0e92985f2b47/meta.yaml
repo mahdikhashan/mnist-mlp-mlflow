@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/e54395cc0fe94a77a64b0e92985f2b47/artifacts
+end_time: 1731165898883
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e54395cc0fe94a77a64b0e92985f2b47
+run_name: invincible-doe-642
+run_uuid: e54395cc0fe94a77a64b0e92985f2b47
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731165785782
+status: 3
+tags: []
+user_id: mahdikhashan

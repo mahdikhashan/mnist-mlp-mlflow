@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/67346283b2b74d1d960d5be66d1e0a03/artifacts
+end_time: 1731167187870
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 67346283b2b74d1d960d5be66d1e0a03
+run_name: efficient-mare-959
+run_uuid: 67346283b2b74d1d960d5be66d1e0a03
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731167042953
+status: 3
+tags: []
+user_id: mahdikhashan

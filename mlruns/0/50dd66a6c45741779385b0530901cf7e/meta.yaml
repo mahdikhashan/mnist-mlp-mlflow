@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/50dd66a6c45741779385b0530901cf7e/artifacts
+end_time: 1731169939389
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 50dd66a6c45741779385b0530901cf7e
+run_name: bald-slug-269
+run_uuid: 50dd66a6c45741779385b0530901cf7e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731169582272
+status: 3
+tags: []
+user_id: mahdikhashan

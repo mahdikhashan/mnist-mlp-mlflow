@@ -125,9 +125,9 @@ test_loader = DataLoader(dataset=test_dataset, batch_size=batch_size, shuffle=Fa
 
 if __name__ == "__main__":
     # a very short dataset EDA
-    for (data, target) in train_loader:
-        print('data:', data.size(), 'type:', data.type())
-        print('target:', target.size(), 'type:', target.type())
+    # for (data, target) in train_loader:
+    #     print('data:', data.size(), 'type:', data.type())
+    #     print('target:', target.size(), 'type:', target.type())
 
         # pltsize=1
         # plt.figure(figsize=(10*pltsize, pltsize))
@@ -137,7 +137,7 @@ if __name__ == "__main__":
         #     plt.imshow(data[i,:,:,:].numpy().reshape(28,28), cmap="gray_r")
         #     plt.title('Class: '+str(target[i].item()))
 
-        break
+        # break
 
     model = MNISTMLP().to(device)
     model_info = summary(model)

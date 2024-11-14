@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/5d32de4db24145ad959cbe81e0427c2d/artifacts
+end_time: 1731160516269
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5d32de4db24145ad959cbe81e0427c2d
+run_name: monumental-snake-918
+run_uuid: 5d32de4db24145ad959cbe81e0427c2d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731157577414
+status: 3
+tags: []
+user_id: mahdikhashan

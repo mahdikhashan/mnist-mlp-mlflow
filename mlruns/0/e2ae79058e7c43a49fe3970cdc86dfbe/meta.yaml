@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/e2ae79058e7c43a49fe3970cdc86dfbe/artifacts
+end_time: 1731092892856
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e2ae79058e7c43a49fe3970cdc86dfbe
+run_name: clean-dolphin-622
+run_uuid: e2ae79058e7c43a49fe3970cdc86dfbe
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731092867085
+status: 3
+tags: []
+user_id: mahdikhashan

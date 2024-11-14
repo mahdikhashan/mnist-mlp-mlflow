@@ -1,0 +1,21 @@
+artifact_path: xor-model
+flavors:
+  python_function:
+    config:
+      device: null
+    data: data
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.pytorch
+    pickle_module_name: mlflow.pytorch.pickle_module
+    python_version: 3.11.10
+  pytorch:
+    code: null
+    model_data: data
+    pytorch_version: 2.3.0.post101
+mlflow_version: 2.17.2
+model_size_bytes: 5020
+model_uuid: 2933f1f57c614f9c9a89b3db9907f8bd
+run_id: 91e5cddfb0d9474893d130ed0985fce5
+utc_time_created: '2024-11-08 19:12:49.444889'
